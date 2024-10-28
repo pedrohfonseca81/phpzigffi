@@ -1,0 +1,24 @@
+{
+    "name": "phpzigffi/phpzigffi",
+    "autoload": {
+        "psr-4": {
+            "PhpZigFFI\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PhpZigFFI\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tyde81",
+            "email": "pedrohfonseca.1981@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpbench/phpbench": "^1.3"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
